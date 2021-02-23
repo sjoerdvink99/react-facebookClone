@@ -1,12 +1,13 @@
 import React from "react";
+import Header from "./Header";
 import "./App.css";
 
-const tijd = "0.08.00";
+const tijd = "1.04.08";
 
 function App() {
   return (
     <div className='app'>
-      <h1>Facebook</h1>
+      <Header />
     </div>
   );
 }
