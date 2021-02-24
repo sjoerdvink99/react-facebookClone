@@ -9,7 +9,14 @@ export default function Feed() {
     <div className='feed'>
       <StoryReel />
       <MessageSender />
-      <Post />
+      <Post
+        id={key}
+        profilePic={profilePic}
+        message={message}
+        timestamp={timestamp}
+        username={username}
+        image={image}
+      />
     </div>
   );
 }
